@@ -1,0 +1,6 @@
+extend-exclude = ["*.ipynb"]
+include = ["**/*.py", "**/*.pyi", "**/pyproject.toml", "**/ruff.toml"]
+line-length = 120
+target-version = "py311"
+
+lint.ignore = ["F403","F405","E712","E902"]

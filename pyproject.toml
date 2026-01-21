@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "data_on_chain"
+version = "0.1.0"
+description = "data-on-chain"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+
+ipykernel = "*"
+
+numpy = "*"
+pandas = "*"
+matplotlib = "*"
+seaborn = "*"
+
+requests = "*"
+pytest = "*"
+pytest-xdist = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+addopts = "-ra -q"
+testpaths = ["test"]
+python_files = "*.py"
+python_functions = "test*"
+python_classes = "Test*"
