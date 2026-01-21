@@ -19,6 +19,8 @@ requests = "*"
 pytest = "*"
 pytest-xdist = "*"
 
+solana = "*"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"

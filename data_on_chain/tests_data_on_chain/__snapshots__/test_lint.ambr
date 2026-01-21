@@ -6,5 +6,5 @@
   PythonPackageStructureError(readme_missing=False, pyproject_toml_missing=False, init_py_missing=False, other_python_files=[])
 # ---
 # name: test_pytest_collect[data_on_chain]
-  '6 tests collected in '
+  '9 tests collected in '
 # ---
